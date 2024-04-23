@@ -4,6 +4,7 @@ import './App.css';
 
 function App() {
     const myVariable = process.env.REACT_APP_MY_VARIABLE;
+    console.log(myVariable);
     return (
         <div className="App">
             <header className="App-header">
@@ -12,7 +13,6 @@ function App() {
                 <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
                     Learn React
                 </a>
-                <p>myVariable</p>
             </header>
         </div>
     );
